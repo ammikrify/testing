@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+  <title>Parallax Example</title>
+  <meta charset="UTF-8">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://rawgithub.com/cubiq/iscroll/master/build/iscroll-probe.js"></script>
+    <script type="text/javascript" src="./js/iscroll-sticky.js"></script>
+    <script type="text/javascript" src="./js/iscroll.stickyheaders.js"></script>
+    <script type="text/javascript" src="./js/parallax.js"></script>
+
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="monitor" style="z-index:9999999;display:none;">Y position: <strong id="position">0</strong></div>
+
+  <div class="navbar navbar-default navbar1 navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="nav-main">
+        <ul class="nav navbar-nav col-xs-12" style="padding-bottom:2px;">
+          <li class="active col-xs-5 text-center"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li class="col-xs-3 text-center"><a href="#about"><span class="glyphicon glyphicon-facetime-video"></span></a></li>
+          <li  style="border:none"  class="col-xs-4 text-center"><a href="#contact">&nbsp;&nbsp;&nbsp;&nbsp;<span class="col-xs-push-2  glyphicon glyphicon-bell"></span></a></li>
+        </ul>
+
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+
+  <div style="background-image:url(./images/diamond_upholstery.png);overflow-x:hidden;" class="col-xs12">
+    <img src="./images/tiger.jpg" class="profile-pic" style="position:relative;" 
+    alt="cambridge">
+  </div>
+
+
+  <div  id="scroll">
+    <ul class="list">
+
+      <li class="support" style="visibility:hidden;">
+        <div class="stick">A</div>
+        <ul>
+          <li>Aa</li>
+          <li>Aa</li>
+          <li>Aa</li>
+          <li>Aa</li>
+          <li>Aa</li>
+        </ul>
+      </li> <!-- end support  nthing will shown from this.its only support -->
+      <li>
+        <div class="stick">
+          <div class="navbar navbar-default navbar2" role="navigation">
+            <div class="container">
+
+              <div class="nav-main">
+                <ul class="nav navbar-nav col-xs-12 m2">
+                  <li class="active col-xs-5 text-center"><a href="#"><span class="glyphicon glyphicon-headphones"></span>&nbsp;Listen</a></li>
+                  <li class="col-xs-3 text-center"><a href="#about"><span class="glyphicon glyphicon-heart"></span></a></li>
+                  <li  style="border:none"  class="col-xs-4 text-center"><a class="col-xs-push-2"  href="#contact"><span class="glyphicon glyphicon-phone"></span>Msg</a></li>
+                </ul>
+
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div> 
+        <ul class="main-row" style="background-color:#f1f1f1;">
+          <li class="col-xs-12" style="position:static;margin:0px;height:15px;background-color:#f1f1f1;">
+            
+          </li>
+
+          <li>
+            <div class="b1  col-xs-6"><h4>Reddy</h4> <span>Digisyst</span><h5><b>Brighton</b></h5> <span>Designer</span></div>
+            <div class="b1 text-center col-xs-6 "><img src="./images/flower13.png" alt="flower"></div>
+          </li>
+            <li>
+            <div class="b1  col-xs-6"><h4>Varun</h4> <span>NewYork</span><h5><b>Git It</b></h5> <span>Developer</span></div>
+            <div class="b1 text-center col-xs-6 "><img src="./images/flower13.png" alt="flower"></div>
+          </li>
+            <li>
+            <div class="b1  col-xs-6"><h4>Amy</h4> <span>KKD</span><h5><b>Krify</b></h5> <span>Web Designer</span></div>
+            <div class="b1 text-center col-xs-6 "><img src="./images/flower13.png" alt="flower"></div>
+          </li>
+          
+            <li>
+            <div class="b1  col-xs-6"><h4>Rahul</h4> <span>Bangalore</span><h5><b>Neons</b></h5> <span>HR</span></div>
+            <div class="b1 text-center col-xs-6 "><img src="./images/flower13.png" alt="flower"></div>
+          </li>        
+          <li style="visibility:hidden;height:0px;">testing done</li>
+         
+        
+        </ul>
+      </li>
+
+      <li>  
+        <div class="stick">
+          <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+              <div class="nav-main">
+                <ul class="nav navbar-nav">
+                  <li class="active col-xs-4"><a href="#" style="color:#222 !important;">&nbsp;&nbsp;&nbsp;Footer</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
+      </li>
+      </ul> <!-- End list -->
+    </div> <!-- Scroll end -->
+  </body>
+  </html>
